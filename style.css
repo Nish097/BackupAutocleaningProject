@@ -1,0 +1,63 @@
+/* General background and font */
+body {
+    background-color: #fdf7ef !important;  /* Soft beige */
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Title style */
+h1 {
+    color: #3e2a1c; /* Deep brown */
+    font-weight: 700;
+    font-size: 2.6rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Subheader */
+h3 {
+    color: #4b3621;
+    font-weight: 600;
+}
+
+/* Text input styling */
+input {
+    background-color: #f4f4f4 !important;
+    border-radius: 0.5rem !important;
+    padding: 0.6rem !important;
+    border: 1px solid #ddd !important;
+}
+
+/* Highlight focused input */
+input:focus {
+    border: 2px solid #b08560 !important;
+    outline: none;
+}
+
+/* Button style */
+.stButton > button {
+    background-color: #4b2e1e !important;
+    color: white !important;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.6rem;
+    border: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #5c3a25 !important;
+    transform: scale(1.02);
+}
+
+/* Card look for sections */
+.block-container {
+    background-color: #fff9f2;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+/* Icons and labels */
+label {
+    font-weight: 500;
+    color: #3e2a1c;
+}

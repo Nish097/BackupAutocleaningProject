@@ -1,0 +1,18 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Ignore local virtual environments or site-packages
+venv/
+streamlit/
+
+# Ignore large files and logs
+*.log
+*.dll
+*.lib
+*.pkl
+*.html
+
+# Ignore system files
+.DS_Store
+Thumbs.db
