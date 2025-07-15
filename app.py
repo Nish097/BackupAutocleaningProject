@@ -2,7 +2,6 @@ import streamlit as st
 import pandas as pd
 import sqlalchemy
 from AutoClean import AutoClean
-import sweetviz
 import os
 
 # Streamlit page config
